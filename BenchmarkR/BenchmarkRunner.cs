@@ -10,7 +10,7 @@ namespace BenchmarkR
 {
     public class BenchmarkRunner
     {
-        private static readonly BenchmarkValidator _benchmarkValidator = new BenchmarkValidator();
+        private static readonly BenchmarkValidator BenchmarkValidator = new BenchmarkValidator();
         
         private readonly IBenchmark _benchmark;
 
@@ -86,7 +86,7 @@ namespace BenchmarkR
 
         private void ValidateBenchmark(IBenchmark benchmark)
         {
-            var validationResult = _benchmarkValidator.Validate(benchmark);
+            var validationResult = BenchmarkValidator.Validate(benchmark);
 
             if (validationResult.IsValid)
                 return;
