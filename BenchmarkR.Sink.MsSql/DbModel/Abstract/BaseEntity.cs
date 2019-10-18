@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace BenchmarkR.DataAccess.Model.Abstract
+namespace BenchmarkR.Sink.MsSql.DbModel.Abstract
 {
     public abstract class BaseEntity
     {

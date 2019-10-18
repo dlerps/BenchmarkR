@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkR", "BenchmarkR\BenchmarkR.csproj", "{BC315BAD-F366-4ABD-AA99-55863088F36F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkR.Sink.MsSql", "BenchmarkR.Sink.MsSql\BenchmarkR.Sink.MsSql.csproj", "{446AA206-8160-4B35-9EAC-A8D1F3A9B0F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkR", "BenchmarkR\BenchmarkR.csproj", "{FB19E90C-5E68-42FF-A23B-BC64EAFC8F2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BC315BAD-F366-4ABD-AA99-55863088F36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC315BAD-F366-4ABD-AA99-55863088F36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC315BAD-F366-4ABD-AA99-55863088F36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC315BAD-F366-4ABD-AA99-55863088F36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446AA206-8160-4B35-9EAC-A8D1F3A9B0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446AA206-8160-4B35-9EAC-A8D1F3A9B0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446AA206-8160-4B35-9EAC-A8D1F3A9B0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446AA206-8160-4B35-9EAC-A8D1F3A9B0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB19E90C-5E68-42FF-A23B-BC64EAFC8F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB19E90C-5E68-42FF-A23B-BC64EAFC8F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB19E90C-5E68-42FF-A23B-BC64EAFC8F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB19E90C-5E68-42FF-A23B-BC64EAFC8F2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

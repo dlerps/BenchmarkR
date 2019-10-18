@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using BenchmarkR.DataAccess.Model.Abstract;
+using BenchmarkR.Sink.MsSql.DbModel.Abstract;
 
-namespace BenchmarkR.DataAccess.Model
+namespace BenchmarkR.Sink.MsSql.DbModel
 {
     [Table("Runs")]
     public class BenchmarkRun : BaseEntity
