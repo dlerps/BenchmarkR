@@ -5,7 +5,6 @@ namespace BenchmarkR.Examples.RandomDelay
 {
     public class RandomDelayBenchmark : IBenchmark
     {
-
         private const int MIN_DELAY = 5;
 
         private const int MAX_DELAY = 500;
@@ -13,6 +12,7 @@ namespace BenchmarkR.Examples.RandomDelay
         private readonly Random _random;
 
         public int TotalCount => 100;
+        
         public int BatchSize => 4;
 
         public string Name => "Random Delay Benchmark";

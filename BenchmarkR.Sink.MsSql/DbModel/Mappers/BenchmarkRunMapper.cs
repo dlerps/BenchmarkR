@@ -24,7 +24,8 @@ namespace BenchmarkR.Sink.MsSql.DbModel.Mappers
                 Name = @in.Name,
                 BatchSize = @in.BatchSize,
                 StartedAt = @in.StartedAt,
-                TotalCount = @in.TotalCount
+                TotalCount = @in.TotalCount,
+                BenchmarkResults = results
             };
         }
 

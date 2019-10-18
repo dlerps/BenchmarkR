@@ -12,7 +12,9 @@ namespace BenchmarkR.Sink.MsSql
 
             using (var dbContext = new BenchmarkContext())
             {
-                dbContext.BenchmarkRuns.AddRange(benchmarkRun);
+                await dbContext.BenchmarkRuns.AddAsync(benchmarkRun);
+                //await dbContext.BenchmarkResults.AddRangeAsync(benchmarkRun.BenchmarkResults);
+                
                 await dbContext.SaveChangesAsync();
             }
         }

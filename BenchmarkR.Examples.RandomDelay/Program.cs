@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using BenchmarkR.Sink.Console;
+using BenchmarkR.Sink.MsSql;
 
 namespace BenchmarkR.Examples.RandomDelay
 {
@@ -14,6 +15,7 @@ namespace BenchmarkR.Examples.RandomDelay
             var benchmarkRun = await benchmarkRunner.Run();
 
             benchmarkRun.WriteToConsole();
+            await benchmarkRun.WriteToMsSql();
         }
     }
 }

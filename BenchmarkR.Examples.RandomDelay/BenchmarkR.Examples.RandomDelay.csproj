@@ -7,6 +7,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\BenchmarkR.Sink.Console\BenchmarkR.Sink.Console.csproj" />
+      <ProjectReference Include="..\BenchmarkR.Sink.MsSql\BenchmarkR.Sink.MsSql.csproj" />
       <ProjectReference Include="..\BenchmarkR\BenchmarkR.csproj" />
     </ItemGroup>
 
