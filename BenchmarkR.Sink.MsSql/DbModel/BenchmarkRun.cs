@@ -18,6 +18,7 @@ namespace BenchmarkR.Sink.MsSql.DbModel
         
         public int TotalCount { get; set; }
         
+        [InverseProperty("BenchmarkRun")]
         public IList<BenchmarkResult> BenchmarkResults { get; set;  }
     }
 }

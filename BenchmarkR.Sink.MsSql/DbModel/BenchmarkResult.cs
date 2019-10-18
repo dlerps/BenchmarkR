@@ -9,6 +9,7 @@ namespace BenchmarkR.Sink.MsSql.DbModel
     {
         public Guid BenchmarkRunId { get; set; }
         
+        [ForeignKey("BenchmarkRunId")]
         public BenchmarkRun BenchmarkRun { get; set; }
         
         public double Milliseconds { get; set; }
